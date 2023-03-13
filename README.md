@@ -3,7 +3,7 @@ A repository filled with codewars challenges (kata). Pushing atleast 5 solutions
 
 # How It's Made
 
-**Tech used: JavaScript*
+**Tech used: JavaScript**
 Everyday I solve a codewars challenge!
 
 ## Optimizations
