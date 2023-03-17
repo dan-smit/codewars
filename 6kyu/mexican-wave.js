@@ -8,7 +8,7 @@
 
 //My solution
 
-function wave(str){
+/*function wave(str){
     let mexWave = []
     for(let i=0; i<str.length; i++){
       let lettersArr = str.split('')
@@ -17,5 +17,15 @@ function wave(str){
         mexWave.push(lettersArr.join(''))
       }
     }
+    return mexWave
+  }*/
+
+  function wave(str){
+    let mexWave = []
+    str.split('').forEach((val, ind, arr) => {
+      if(val !== ' '){
+        mexWave.push(arr.join('').slice(0,ind) + val.toUpperCase() + arr.join('').slice(ind+1, arr.length))
+      }
+    })
     return mexWave
   }
