@@ -20,5 +20,21 @@
 //My solution
 
 function isRubyComing(list) {
+    let total = 0
+    for(let dev in list){
+      if(list[dev].language == 'Ruby'){
+        total+=1
+      } 
+    }
+    if(total == 0){
+      return false
+    }else{
+      return true
+    }
+  }
+  /*
+function isRubyComing(list) {
     return list.some(dev => dev.language === 'Ruby');
   }
+*/
+  
