@@ -22,5 +22,5 @@ function getAverageAge(list) {
       total += list[dev].age
       count++
     }
-    return Math.ceil(total/count)
+    return Math.round(total/count)
   }
