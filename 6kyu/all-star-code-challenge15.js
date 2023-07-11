@@ -27,9 +27,19 @@ function rotate(str){
     
     }
     
-    //rotates string from the rotate function
-    function rotation(str){
-      let retStr = str
-      let val = str[0]
-      return str.slice(1) + val
-    }
+//rotates string from the rotate function
+function rotation(str){
+  let retStr = str
+  let val = str[0]
+  return str.slice(1) + val
+}
+
+/*
+Additional solution from codewars I thought was neat
+
+function rotate(str){
+    return str.split('').map(e => str = str.slice(1) + str.slice(0, 1))
+}
+
+
+*/
