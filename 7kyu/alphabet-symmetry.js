@@ -18,7 +18,7 @@ function solve(arr){
     })
   };
   
-  function symmetry(str){
+function symmetry(str){
     let alph = 'abcdefghijklmnopqrstuvwxyz'
     let arr = str.split('')
     let count = 0
