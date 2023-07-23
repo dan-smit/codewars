@@ -19,3 +19,9 @@ function twoArePositive(a, b, c) {
     if(cond(b) && cond(c) && !cond(a)) return true
     return false
   }
+
+  /* Better Solution
+function twoArePositive(a, b, c){
+    return [...arguments].filter(i => i>0).length === 2
+}
+  */
