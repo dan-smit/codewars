@@ -26,7 +26,7 @@
 // My Solution
 
 function arrange(s) {
-    let S = [...s]
+    let S = [...s]  
     let T = []
     let first = 0, len = s.length, last = len - 1
     let reverse = false;
